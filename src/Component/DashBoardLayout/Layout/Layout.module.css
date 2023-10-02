@@ -1,0 +1,40 @@
+.container {
+  background-color: #f3f3f3;
+}
+
+
+.sidemain{
+  display: flex;
+}
+
+.main {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+/* .topbar,
+.main {
+  margin-left: 70px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+
+  .topbar,
+  .main {
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 980px) {
+  .sidebar {
+    width: 180px;
+  }
+  .topbar,
+  .main {
+    margin-left: 180px;
+  }
+} */

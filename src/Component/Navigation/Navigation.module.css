@@ -1,0 +1,159 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,500&display=swap');
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.img{
+  width: 100%;
+}
+.imagesDiv img{
+  width: 600px;
+  height: 450px;
+}
+
+
+.logo img{
+  width:200px;
+  padding: 40px 40px;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.forms input{
+  width: 447px;
+  height: 50px;
+  flex-shrink: 0;
+  margin: 15px;
+  border-radius: 5px;
+border: 2px solid rgba(84, 95, 125, 0.15);
+background: #FFF;
+overflow: hidden;
+}
+
+.forms input:focus{
+border-radius: 2px solid  #39CDCC;
+border-radius: 6px;
+box-shadow: 0 0 4px #39cdcc;
+}
+
+.button{
+  width: 447px;
+  height: 50px;
+  flex-shrink: 1;
+  margin: 20px;
+  border-radius: 5px;
+border: 2px solid rgba(84, 95, 125, 0.15);
+color: #fff;
+background-color: #39CDCC;
+overflow: hidden;
+}
+
+.Spinner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forms h1{
+  font-family: "AvenirBold", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #545F7D;
+}
+
+.forms p{
+  color: #545F7D;
+font-family: Avenir Next;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px;
+}
+.forms .login{
+background-color: #39CDCC;
+color: #fff;
+width: 447px;
+flex-shrink: 0;
+border-radius: 8px;
+text-align: center;
+font-family: Avenir Next;
+font-size: 14px;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+margin: 14px;
+padding: 15px 0;
+text-decoration: none;
+
+}
+
+.forms  form{
+  padding-top: 40px;
+}
+
+.forgetpass{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #39CDCC;
+  padding: 10px 19px;
+text-align: right;
+font-family: Avenir Next;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+
+.passwordiv{
+  position: relative;
+}
+
+.passwordiv span{
+  position: absolute;
+  right:30px;
+  top:35px;
+  color: #39CDCC;
+  font-size: 14px;
+  text-align: center;
+  font-family: "AvenirRegular", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.erros{
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 70%;
+ 
+  margin-bottom: 20px;
+
+  background-color: #f0b1bb;
+  color: #eb405d;
+  font-family: "AvenirRegular", sans-serif;
+  font-size: 15px;
+
+  border-radius: 5px;
+  border: 1px solid #ff7fa9;
+}

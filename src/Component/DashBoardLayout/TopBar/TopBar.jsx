@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { FaSistrix, FaCaretDown} from "react-icons/fa";
+import { FaSistrix} from "react-icons/fa";
+import {FaCaretDown} from "react-icons/fa";
 import { BsBell} from "react-icons/bs";
 import styles from "../TopBar/TopBar.module.css"
 import Users from '../../Users/Users';

@@ -2,7 +2,7 @@ import React from "react";
 import TopBar from "../TopBar/TopBar";
 import SideBar from "../SideBar/SideBar";
 import styles from "./Layout.module.css";
-import { Outlet } from "react-router-dom";
+
 import Users from "../../Users/Users";
 
 const Layout = () => {

@@ -1,8 +1,7 @@
 import { Routes, Route, Navigate} from "react-router-dom";
-import Main from "./Screens/Main/Main";
+
 import DashBoardLayout from "./Component/DashBoardLayout/Layout/Layout"
 
-import HomeScreens from "./Screens/Home/Home";
 import Navigation from "./Component/Navigation/Navigation";
 
 
@@ -15,7 +14,7 @@ const Router = () => {
         element={
          <Navigation>
           
-          <HomeScreens />
+         
          </Navigation>
           
          
@@ -24,7 +23,7 @@ const Router = () => {
 
       {/* {nested router dashboard} */}
       <Route path="/dashboard" element={<DashBoardLayout />}>
-        <Route index element={<Main />} />
+       
 
       </Route>
      

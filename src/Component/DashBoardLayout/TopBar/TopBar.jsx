@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-
+import { FaSistrix} from "react-icons/fa";
+import {FaCaretDown} from "react-icons/fa";
 import { BsBell} from "react-icons/bs";
 import styles from "../TopBar/TopBar.module.css"
 import Users from '../../Users/Users';
@@ -47,7 +48,7 @@ placeholder="Search for anything"
 </div>
  
  <button className={styles.search}>
- {/* <FaSistrix className={styles.icons}/> */}
+ <FaSistrix className={styles.icons}/>
  </button>
 {/* 
  <div>
@@ -74,7 +75,7 @@ placeholder="Search for anything"
 <img className={styles.profile} src="images/girl2.jfif" alt="" />
 <NavLink className={styles.li}>Olayimika</NavLink>
 <NavLink className={styles.li}>
-{/* <FaCaretDown/> */}
+<FaCaretDown/>
 </NavLink>
 </div>
 
